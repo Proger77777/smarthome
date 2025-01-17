@@ -1,0 +1,14 @@
+.w{
+    display: flex;
+}
+
+
+.w {
+    .btn {
+        background-color: #1b998b;
+    }
+
+    .btn:hover {
+        background-color: #0f5850;
+    }
+}

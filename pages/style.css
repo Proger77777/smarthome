@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+body {
+    font-family: "Mountains of Christmas", serif;
+    color: #c33155;
+    background-color: #c9baa6;
+}
+header{
+    background-color: #aa183c;
+    margin: 32px;
+    padding: 32px;
+    width: 768px;
+}

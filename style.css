@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    font-family: "Nunito", serif;
+}
+ul{
+    display: flex;
+    padding: 16px;
+}
+.nado{
+    padding: 5px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    width: 320px;
+}
+.f22{
+    font-size: larger;
+    width: 400;
+}
+.butt{
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px;
+    background-color: lightblue;
+}
+.butt2{
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px;
+    background-color: lightblue;
+}
