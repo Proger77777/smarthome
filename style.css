@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body{
     font-family: "Nunito", serif;
-    background-color: rgb(222, 222, 255);
 }
 ul{
     display: flex;
     padding: 16px;
     margin: 16px;
+    gap: 16px;
 }
 .nado{
     padding: 5px;
@@ -32,6 +32,7 @@ ul{
     border-radius: 16px;
     border: 1px;
     background-color: rgb(47, 170, 211);
+    cursor: pointer;
 }.butt2{
     padding: 16px;
     border-radius: 16px;
@@ -49,14 +50,61 @@ ul{
     width: auto;
     height: auto;
     align-self: normal;
+    display: inline;
 }
 div{
     display: flex;
 }
-.project{
+.projectsh{
     margin: 16px;
     padding: 16px;
     border-radius: 16px;
     border: 1px;
     background-color: rgb(159, 255, 255);
+    width: 500px;
+    display: flex;
 }
+img{
+    border-radius: 16px;
+    width: 300px;
+}
+.pht{
+    width: 300px;
+    border-radius: 16px;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 16px;
+    background-color: lightblue;
+}
+a:hover{
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px;
+    background-color: rgb(47, 170, 211);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Добавляем тень при наведении */
+    transform: scale(1.05); /* Увеличиваем размер */
+    color: white; /* Меняем цвет текста */
+}
+.photo{
+    animation-name: change-background-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  float: right;
+  display: flex;
+}
+img:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Добавляем тень при наведении */
+     transform: scale(1.05); /* Увеличиваем размер */
+     color: white; /* Меняем цвет текста */
+     transition: all 0.3s ease-in-out;
+}
+.gfg{
+    width: 50%;
+}
+
