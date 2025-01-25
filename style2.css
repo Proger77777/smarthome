@@ -1,14 +1,45 @@
-.w{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+  font-family: "Tektur", sans-serif;
+
 }
 
+body {
+  background-color: #00685A;
+}
 
-.w {
-    .btn {
-        background-color: #1b998b;
-    }
+.card1 {
+  background-color: #A64500;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  color: #00685A;
+}
 
-    .btn:hover {
-        background-color: #0f5850;
-    }
+.contain {
+  display: flex;
+}
+
+.imgs {
+  width: 100px;
+  height: 100px;
+}
+.contain2{
+  background-color: #A64500;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  color: #00685A;
+  display: flex;
+}
+.card{
+  width:200px;
+  height: 200px;
+  margin: 16px;
+  background-color: #A64500;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  color: #00685A;
 }
